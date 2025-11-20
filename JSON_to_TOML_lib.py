@@ -9,5 +9,5 @@ with open('text.json', 'r') as f:
 with open('output2.toml', 'w') as f:
     toml.dump(data, f)
 end = timeit.default_timer()
-print(f"Время выполнения: {end - start} секунд")
+print(f"Время выполнения: {(end - start)*100} секунд*100")
 

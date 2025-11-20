@@ -173,4 +173,4 @@ if __name__ == "__main__":
     main()
 
 end = timeit.default_timer()
-print(f"Время выполнения: {end - start} секунд")
+print(f"Время выполнения: {(end - start)*100} секунд*100")
